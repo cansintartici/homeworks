@@ -1,11 +1,24 @@
-#include "Ticket.h"
-
-Ticket::Ticket()
+#include "hw1.h"
+//initialization of ticket object
+Ticket::Ticket(string eventId, string ownerName, int numSeats, bool isReservation)
+:eventId(eventId),ownerName(ownerName),numSeats(numSeats), isReservation(isReservation)
 {
-    //ctor
 }
-
+int Ticket::getNumberOfSeats()
+{
+return numSeats;
+}
+string Ticket::getEventId()
+{
+return eventId;
+}
+string Ticket::getOwnerName()
+{
+return ownerName;
+}
+bool Ticket::getIsReservation(){
+return isReservation;
+}
 Ticket::~Ticket()
 {
-    //dtor
 }

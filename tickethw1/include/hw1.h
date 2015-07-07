@@ -24,6 +24,8 @@ string getDate();
 friend ostream& operator<<(ostream& out, const Event &event);
 };
 ostream& operator<<(ostream &out, const Event &event);
+
+
 /* Place */
 class Place
 {
