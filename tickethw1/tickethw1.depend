@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1436731637 source:/home/cansin/Desktop/homeworks/tickethw1/src/Database.cpp
+	"../include/hw1.h"
+	<iostream>
+
+1436714129 /home/cansin/Desktop/homeworks/tickethw1/include/hw1.h
+	<iostream>
+	<string>
+	<vector>
+
+1436731638 source:/home/cansin/Desktop/homeworks/tickethw1/src/Event.cpp
+	"../include/hw1.h"
+
+1436731047 source:/home/cansin/Desktop/homeworks/tickethw1/src/hw1.cpp
+	"hw1.h"
+	<iostream>
+
+1436731639 source:/home/cansin/Desktop/homeworks/tickethw1/src/Place.cpp
+	"../include/hw1.h"
+
+1436731641 source:/home/cansin/Desktop/homeworks/tickethw1/src/Ticket.cpp
+	"../include/hw1.h"
+

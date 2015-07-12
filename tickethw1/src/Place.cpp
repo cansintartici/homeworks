@@ -1,8 +1,10 @@
-#include "hw1.h"
+#include "../include/hw1.h"
 //Construction of Place
 Place::Place(string name, Place::Type type, int seats, string address)
 : placeName(name), type(type), maxSeats(seats), address(address)
 {
+}
+Place::~Place(){
 }
 //
 void Place::setAddress(string newAddress)

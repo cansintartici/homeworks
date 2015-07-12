@@ -1,4 +1,4 @@
-#include "hw1.h"
+#include "../include/hw1.h"
 //Construction of Event
 Event::Event(string id, string placeName, string eventName, string date, int price)
 :eventId(id),placeName(placeName),eventName(eventName),date(date),price(price)

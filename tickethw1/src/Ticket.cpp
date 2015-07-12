@@ -1,4 +1,4 @@
-#include "hw1.h"
+#include "../include/hw1.h"
 //initialization of ticket object
 Ticket::Ticket(string eventId, string ownerName, int numSeats, bool isReservation)
 :eventId(eventId),ownerName(ownerName),numSeats(numSeats), isReservation(isReservation)
